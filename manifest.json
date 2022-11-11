@@ -1,0 +1,13 @@
+{
+    "name": "NBA Recent News",
+    "version": "1.0.0",
+    "description": "A display of the 5 most recent NBA news articles",
+    "manifest_version": 3,
+    "author": "Ronith Thodimeladinne",
+    "permissions": ["storage", "declarativeContent", "activeTab", "scripting"],
+    "host_permissions": ["https://www.rotoballer.com/"],
+    "action":{
+    "default_popup": "index.html",
+    "default_title": "NBA Articles"
+    }
+}
